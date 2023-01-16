@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/matching_button_background"
+    style="@style/MatchingButton"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:layout_margin="@dimen/matching_indent_small">
+
+    <TextView
+        android:id="@+id/matching_button_text"
+        style="@style/MatchingButtonText"
+        android:maxWidth="@dimen/matching_button_max_width" />
+
+</FrameLayout>

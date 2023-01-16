@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="drag_and_drop_color_text_primary">@color/drag_and_drop_color_black</color>
+    <color name="drag_and_drop_color_answer_text_stroke">@color/matching_color_black</color>
+    <color name="drag_and_drop_color_answer_text_background">@color/matching_color_white</color>
+
+    <!-- Colors -->
+    <color name="drag_and_drop_color_black">#000000</color>
+    <color name="drag_and_drop_color_white">#FFFFFF</color>
+</resources>

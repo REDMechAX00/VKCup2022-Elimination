@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RatingView">
+        <attr name="star_size" format="dimension" />
+        <attr name="count_of_stars" format="integer" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/matching_items_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:id="@+id/matching_items_table_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/matching_button_verify"
+            android:layout_width="@dimen/matching_button_verify_size"
+            android:layout_height="@dimen/matching_button_verify_size"
+            android:visibility="gone"
+            app:lottie_loop="true" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/matching_separator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/matching_separator_height"
+        android:layout_marginStart="@dimen/matching_indent_big"
+        android:layout_marginTop="@dimen/matching_indent_normal"
+        android:layout_marginEnd="@dimen/matching_indent_big"
+        android:layout_marginBottom="@dimen/matching_indent_normal"
+        android:background="@color/matching_color_separator"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/matching_answers_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" />
+
+</LinearLayout>

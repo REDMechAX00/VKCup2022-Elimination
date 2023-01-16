@@ -1,0 +1,7 @@
+<resources>
+    <string name="answer_choicer_button_text_count_of_answers">%1$d ответов</string>
+    <string name="answer_choicer_button_text_percent">%1$d%%</string>
+    <string name="answer_choicer_button_wrong_answer_desc">Wrong answer</string>
+    <string name="answer_choicer_button_right_answer_desc">Right answer</string>
+    <string name="answer_choicer_button_select_answer_desc">Select answer</string>
+</resources>

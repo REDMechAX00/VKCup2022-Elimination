@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MatchingButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/matching_button_min_height</item>
+        <item name="android:padding">@dimen/matching_indent_normal</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/matching_button_background</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="MatchingButtonText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/matching_indent_small</item>
+        <item name="android:layout_marginEnd">@dimen/matching_indent_small</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/matching_color_button_text_primary</item>
+        <item name="android:textSize">@dimen/matching_button_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

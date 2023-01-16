@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="android.widget.FrameLayout">
+
+    <LinearLayout
+        android:id="@+id/answer_choicer_button_main_layout"
+        style="@style/AnswerChoicerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|end"
+                android:minWidth="@dimen/answer_choicer_button_percent_width"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/answer_choicer_button_answer_Info_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/answer_choicer_button_text_percent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:gravity="center_vertical|end"
+                        android:textAppearance="@style/AnswerChoicerButtonText"
+                        app:layout_constraintBottom_toTopOf="@+id/answer_choicer_button_image_answer_container"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_chainStyle="spread" />
+
+                    <LinearLayout
+                        android:id="@+id/answer_choicer_button_image_answer_container"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="@dimen/answer_choicer_button_image_answer_size"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/answer_choicer_button_text_percent">
+
+                        <ImageView
+                            android:id="@+id/answer_choicer_button_image_answer_wrong"
+                            android:layout_width="@dimen/answer_choicer_button_image_answer_size"
+                            android:layout_height="@dimen/answer_choicer_button_image_answer_size"
+                            android:layout_marginTop="@dimen/answer_choicer_button_indent_small"
+                            android:contentDescription="@string/answer_choicer_button_wrong_answer_desc"
+                            android:src="@drawable/answer_choicer_ic_wrong"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/answer_choicer_button_image_answer_right"
+                            android:layout_width="@dimen/answer_choicer_button_image_answer_size"
+                            android:layout_height="@dimen/answer_choicer_button_image_answer_size"
+                            android:layout_marginTop="@dimen/answer_choicer_button_indent_small"
+                            android:contentDescription="@string/answer_choicer_button_right_answer_desc"
+                            android:src="@drawable/answer_choicer_ic_normal"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <ImageView
+                    android:id="@+id/answer_choicer_button_radio_image"
+                    android:layout_width="@dimen/answer_choicer_button_radio_image_size"
+                    android:layout_height="@dimen/answer_choicer_button_radio_image_size"
+                    android:background="@drawable/answer_choicer_button_ic_radio_button_unchecked"
+                    android:contentDescription="@string/answer_choicer_button_select_answer_desc"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/answer_choicer_button_right_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/answer_choicer_button_indent_normal"
+                android:layout_marginEnd="@dimen/answer_choicer_button_indent_big"
+                android:gravity="end|center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/answer_choicer_button_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textAppearance="@style/AnswerChoicerButtonText" />
+
+                <LinearLayout
+                    android:id="@+id/answer_choicer_button_progress_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/answer_choicer_button_image_answer_size"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <androidx.core.widget.ContentLoadingProgressBar
+                        android:id="@+id/answer_choicer_button_progress"
+                        style="@style/AnswerChoicerButtonProgress"
+                        android:layout_width="match_parent" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/answer_choicer_button_item_separator"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/answer_choicer_button_item_separator_height"
+            android:background="@color/answer_choicer_color_item_separator"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</merge>

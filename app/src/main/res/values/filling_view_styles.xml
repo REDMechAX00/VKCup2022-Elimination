@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FillingText">
+        <item name="android:textColor">@color/filling_color_text_primary</item>
+        <item name="android:textSize">@dimen/filling_text_normal</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+</resources>

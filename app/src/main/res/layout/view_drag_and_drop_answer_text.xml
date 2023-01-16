@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/matching_button_background"
+    style="@style/DragAndDropTextViewBackground"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/drag_and_drop_indent_small">
+
+    <TextView
+        android:id="@+id/drag_and_drop_answer_text"
+        style="@style/DragAndDropTextView"
+        android:minWidth="@dimen/drag_and_drop_answer_text_min_width"
+        android:minHeight="@dimen/drag_and_drop_answer_text_min_height"
+        android:paddingBottom="@dimen/drag_and_drop_answer_text_bottom_correction_padding" />
+
+</FrameLayout>

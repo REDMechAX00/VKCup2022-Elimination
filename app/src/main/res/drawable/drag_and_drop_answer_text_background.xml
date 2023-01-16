@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/drag_and_drop_answer_text_background_stroke">
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="@dimen/drag_and_drop_answer_text_background_stroke_width"
+                android:color="@color/drag_and_drop_color_answer_text_stroke" />
+            <solid android:color="@android:color/transparent" />
+            <corners android:radius="@dimen/drag_and_drop_answer_text_corners_radius" />
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/drag_and_drop_answer_text_background"
+        android:bottom="@dimen/drag_and_drop_answer_text_background_stroke_margin"
+        android:end="@dimen/drag_and_drop_answer_text_background_stroke_margin"
+        android:start="@dimen/drag_and_drop_answer_text_background_stroke_margin"
+        android:top="@dimen/drag_and_drop_answer_text_background_stroke_margin">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/drag_and_drop_color_answer_text_background" />
+            <corners android:radius="@dimen/drag_and_drop_answer_text_corners_radius" />
+        </shape>
+    </item>
+</layer-list>

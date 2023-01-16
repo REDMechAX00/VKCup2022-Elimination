@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/matching_button_background_stroke">
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="@dimen/matching_button_background_stroke_width"
+                android:color="@color/matching_color_button_stroke" />
+            <solid android:color="@android:color/transparent" />
+            <corners android:radius="@dimen/matching_button_corners_radius" />
+        </shape>
+    </item>
+
+    <item
+        android:id="@+id/matching_button_background"
+        android:bottom="@dimen/matching_button_background_stroke_margin"
+        android:end="@dimen/matching_button_background_stroke_margin"
+        android:start="@dimen/matching_button_background_stroke_margin"
+        android:top="@dimen/matching_button_background_stroke_margin">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/matching_color_white" />
+            <corners android:radius="@dimen/matching_button_corners_radius" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">@color/blue</color>
+    <color name="color_primary_variant">@color/blue_dark</color>
+    <color name="color_on_primary">@color/white</color>
+    <color name="color_secondary">@color/blue</color>
+    <color name="color_secondary_variant">@color/blue</color>
+    <color name="color_on_secondary">@color/black</color>
+    <color name="color_background">@color/white</color>
+
+    <!-- Colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#707070</color>
+    <color name="grey_light">#D2D7DF</color>
+    <color name="blue">#0288d1</color>
+    <color name="blue_dark">#01579b</color>
+</resources>

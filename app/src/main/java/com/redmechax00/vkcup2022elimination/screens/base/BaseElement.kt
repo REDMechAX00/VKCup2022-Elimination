@@ -1,0 +1,3 @@
+package com.redmechax00.vkcup2022elimination.screens.base
+
+interface BaseElement

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">VKCup Elimination</string>
+
+    <string name="text_start_element_1">Element 1</string>
+    <string name="text_start_element_2">Element 2</string>
+    <string name="text_start_element_3">Element 3 (not completed)</string>
+    <string name="text_start_element_4">Element 4</string>
+    <string name="text_start_element_5">Element 5</string>
+
+    <string name="text_zero">ноль</string>
+    <string name="text_one">один</string>
+    <string name="text_two">два</string>
+    <string name="text_three">три</string>
+    <string name="text_four">четыре</string>
+    <string name="text_five">пять</string>
+    <string name="text_six">шесть</string>
+    <string name="text_seven">семь</string>
+    <string name="text_eight">восемь</string>
+    <string name="text_nine">девять</string>
+    <string name="text_ten">десять</string>
+    <string name="text_eleven">одинадцать</string>
+    <string name="text_twelve">двенадцать</string>
+    <string name="text_thirteen">тринадцать</string>
+    <string name="text_fourteen">четырнадцать</string>
+    <string name="text_fifteen">пятнадцать</string>
+    <string name="text_sixteen">шеснадцать</string>
+    <string name="text_seventeen">семнадцать</string>
+    <string name="text_eighteen">восемнадцать</string>
+    <string name="text_nineteen">девятнадцать</string>
+    <string name="text_twenty">двадцать</string>
+    <string name="text_thirty">тридцать</string>
+    <string name="text_forty">сорок</string>
+    <string name="text_fifty">пятьдесят</string>
+    <string name="text_sixty">шестьдесят</string>
+    <string name="text_seventy">семьдесят</string>
+    <string name="text_eighty">восемьдесят</string>
+    <string name="text_ninety">девяносто</string>
+    <string name="text_one_hundred_more">сто и больше</string>
+
+    <string name="text_fragment_element_one_question_addition">Сколько будет %1$s + %2$s?</string>
+    <string name="text_fragment_element_one_question_subtraction">Сколько будет %1$s - %2$s?</string>
+    <string name="text_fragment_element_one_question_multiplication">Сколько будет %1$s * %2$s?</string>
+</resources>

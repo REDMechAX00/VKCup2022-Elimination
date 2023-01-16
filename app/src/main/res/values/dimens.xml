@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_indent_big">32dp</dimen>
+    <dimen name="app_indent_normal">16dp</dimen>
+    <dimen name="app_indent_small">8dp</dimen>
+
+    <dimen name="app_elevation">8dp</dimen>
+
+    <dimen name="text_big">22sp</dimen>
+    <dimen name="text_normal">18sp</dimen>
+    <dimen name="text_small">16sp</dimen>
+</resources>

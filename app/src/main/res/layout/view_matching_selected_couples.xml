@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/matching_selected_couple_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/matching_selected_couple_button_remove"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.redmechax00.vkcup2022elimination.views.matching.view_items.MatchingButtonView
+            android:id="@+id/matching_selected_couple_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.redmechax00.vkcup2022elimination.views.matching.view_items.MatchingButtonView
+            android:id="@+id/matching_selected_couple_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/matching_selected_couple_button_remove"
+        android:layout_width="@dimen/matching_selected_couples_button_remove_size"
+        android:layout_height="@dimen/matching_selected_couples_button_remove_size"
+        android:layout_gravity="center"
+        android:background="@drawable/matching_ic_remove"
+        android:contentDescription="@string/matching_selected_items_button_remove_desc"
+        android:scaleX="0.55"
+        android:scaleY="0.55"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/matching_selected_couple_container"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</LinearLayout>

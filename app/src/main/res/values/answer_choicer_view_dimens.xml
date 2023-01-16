@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="answer_choicer_text_big">18sp</dimen>
+    <dimen name="answer_choicer_text_normal">16sp</dimen>
+    <dimen name="answer_choicer_text_small">14sp</dimen>
+
+    <dimen name="answer_choicer_title_indent_small">5dp</dimen>
+    <dimen name="answer_choicer_title_indent_normal">10dp</dimen>
+
+    <dimen name="answer_choicer_button_item_separator_height">1dp</dimen>
+    <dimen name="answer_choicer_button_indent_small">3dp</dimen>
+    <dimen name="answer_choicer_button_indent_normal">10dp</dimen>
+    <dimen name="answer_choicer_button_indent_big">20dp</dimen>
+    <dimen name="answer_choicer_button_radio_image_size">22dp</dimen>
+    <dimen name="answer_choicer_button_percent_width">42dp</dimen>
+    <dimen name="answer_choicer_button_image_answer_size">20dp</dimen>
+    <dimen name="answer_choicer_button_progress_height">6dp</dimen>
+</resources>

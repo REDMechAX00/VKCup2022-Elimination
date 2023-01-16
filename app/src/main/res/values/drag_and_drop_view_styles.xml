@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DragAndDropText">
+        <item name="android:textColor">@color/drag_and_drop_color_text_primary</item>
+        <item name="android:textSize">@dimen/drag_and_drop_text_normal</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="DragAndDropTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/drag_and_drop_indent_small</item>
+        <item name="android:layout_marginBottom">@dimen/drag_and_drop_indent_small</item>
+        <item name="android:layout_marginStart">@dimen/drag_and_drop_indent_normal</item>
+        <item name="android:layout_marginEnd">@dimen/drag_and_drop_indent_normal</item>
+        <item name="android:textColor">@color/drag_and_drop_color_text_primary</item>
+        <item name="android:textSize">@dimen/drag_and_drop_text_normal</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="DragAndDropTextViewBackground">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/drag_and_drop_answer_text_background</item>
+        <item name="android:focusable">true</item>
+    </style>
+</resources>

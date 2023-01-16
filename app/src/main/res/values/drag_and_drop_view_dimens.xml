@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="drag_and_drop_text_normal">20sp</dimen>
+    <dimen name="drag_and_drop_indent_small">6dp</dimen>
+    <dimen name="drag_and_drop_indent_normal">10dp</dimen>
+    <dimen name="drag_and_drop_indent_big">20dp</dimen>
+
+    <dimen name="drag_and_drop_answer_text_background_stroke_width">3dp</dimen>
+    <dimen name="drag_and_drop_answer_text_background_stroke_margin">2dp</dimen>
+    <dimen name="drag_and_drop_answer_text_corners_radius">16dp</dimen>
+    <dimen name="drag_and_drop_answer_text_min_height">24dp</dimen>
+    <dimen name="drag_and_drop_answer_text_min_width">24dp</dimen>
+    <dimen name="drag_and_drop_answer_text_bottom_correction_padding">3dp</dimen>
+</resources>

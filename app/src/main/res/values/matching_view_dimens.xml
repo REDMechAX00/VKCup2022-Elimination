@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="matching_indent_large">44dp</dimen>
+    <dimen name="matching_indent_big">22dp</dimen>
+    <dimen name="matching_indent_normal">8dp</dimen>
+    <dimen name="matching_indent_small">4dp</dimen>
+
+    <dimen name="matching_separator_height">1dp</dimen>
+
+    <dimen name="matching_button_verify_size">180dp</dimen>
+    <dimen name="matching_button_min_height">40dp</dimen>
+    <dimen name="matching_button_max_width">110dp</dimen>
+    <dimen name="matching_button_corners_radius">12dp</dimen>
+    <dimen name="matching_button_background_stroke_width">3dp</dimen>
+    <dimen name="matching_button_background_stroke_margin">2dp</dimen>
+    <dimen name="matching_button_text_size">14sp</dimen>
+
+    <dimen name="matching_selected_couples_button_remove_size">46dp</dimen>
+</resources>

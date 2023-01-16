@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="matching_color_button_text_primary">@color/matching_color_black</color>
+    <color name="matching_color_button_normal">@color/matching_color_white</color>
+    <color name="matching_color_button_selected">@color/matching_color_yellow</color>
+    <color name="matching_color_button_stroke">@color/matching_color_black</color>
+    <color name="matching_color_remove_couple">@color/matching_color_red</color>
+    <color name="matching_color_separator">@color/matching_color_black</color>
+
+    <!-- Colors -->
+    <color name="matching_color_black">#000000</color>
+    <color name="matching_color_white">#FFFFFF</color>
+    <color name="matching_color_yellow">#FFC107</color>
+    <color name="matching_color_red">#F44336</color>
+</resources>

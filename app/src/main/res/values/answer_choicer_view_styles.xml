@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AnswerChoicerQuestionTextTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">start</item>
+        <item name="android:layout_marginTop">@dimen/answer_choicer_button_indent_normal</item>
+        <item name="android:layout_marginBottom">@dimen/answer_choicer_button_indent_normal</item>
+        <item name="android:layout_marginStart">@dimen/answer_choicer_button_indent_big</item>
+        <item name="android:layout_marginEnd">@dimen/answer_choicer_button_indent_big</item>
+        <item name="android:textColor">@color/answer_choicer_color_text_primary</item>
+        <item name="android:textSize">@dimen/answer_choicer_text_big</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AnswerChoicerQuestionTextCountOfAnswers">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">end</item>
+        <item name="android:layout_marginBottom">@dimen/answer_choicer_button_indent_normal</item>
+        <item name="android:layout_marginStart">@dimen/answer_choicer_button_indent_big</item>
+        <item name="android:layout_marginEnd">@dimen/answer_choicer_button_indent_big</item>
+        <item name="android:textColor">@color/answer_choicer_color_text_secondary</item>
+        <item name="android:textSize">@dimen/answer_choicer_text_small</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="AnswerChoicerButtonText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/answer_choicer_button_indent_small</item>
+        <item name="android:textColor">@color/answer_choicer_color_text_primary</item>
+        <item name="android:textSize">@dimen/answer_choicer_text_normal</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="AnswerChoicerButton">
+        <item name="android:focusable">true</item>
+        <item name="android:background">@drawable/answer_choicer_button_bg</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AnswerChoicerButtonProgress" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:layout_height">@dimen/answer_choicer_button_progress_height</item>
+        <item name="android:progressBackgroundTint">@android:color/transparent</item>
+        <item name="android:progressDrawable">@drawable/answer_choicer_button_progress</item>
+    </style>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rating_color_star">@color/rating_color_yellow</color>
+
+    <!-- Colors -->
+    <color name="rating_color_yellow">#FFC107</color>
+</resources>
